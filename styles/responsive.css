@@ -1,0 +1,97 @@
+@media screen and (max-width: 1200px){
+    .wolf .wolf-content p{
+        width: 450px;
+    }
+    .monkey .monkey-title{
+        text-align: right;
+    }
+    .sky{
+        height:964px;
+    }
+    footer .overlay{
+        position: relative;
+        overflow: auto;
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    header#header{
+        height: 700px;
+    }
+    .wolf .wolf-content p{
+        width: 350px;
+        font-size: 16px;
+        
+    }
+    .moon{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header#header{
+        height: 600px;
+    }
+    .moon{
+        width: 100px;
+    }
+    .wolf .wolf-content p{
+        width: 500px;
+        margin: auto;
+        background-color: rgba(19, 17, 39, 0.644);
+        color: #fff;
+        padding: 10px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+}
+    .monkey .monkey-title{
+        text-align: center;
+        color: #fff;
+    }
+    .monkey .monkey-content p{
+        width: 500px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header#header{
+        height: 450px;
+    }
+    .moon{
+        width: 60px;
+        top:85%;
+    }
+    footer .overlay .footer-title{
+        width: 100%;
+    }
+    footer .overlay .container{
+        width: 100%;
+    }
+    .wolf .wolf-content p{
+        width: 90%;
+    }
+    .monkey .monkey-content p{
+        width: 90%;
+    }
+    footer .overlay .description{
+        width: 100%;
+        font-size: 12px;
+    }
+    footer .overlay form{
+        width: 50%;
+    }
+    footer .overlay form input{
+        padding: 4px;
+        width: 97%;
+    }
+    footer .overlay form button{
+        padding: 5px;
+        width: 160px;
+        margin: auto;
+    }
+}
